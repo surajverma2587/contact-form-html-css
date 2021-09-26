@@ -6,6 +6,7 @@ body {
   margin: 0;
   font-family: "Archivo", sans-serif;
   line-height: 1.4;
+  background-color: #fafafa;
 }
 
 .contact-links-container {
@@ -46,9 +47,34 @@ body {
   color: #46b5d3;
 }
 
+.contact-us-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.contact-us {
+  flex: 2;
+  background-color: #fff;
+}
+
+.contact-us-img {
+  flex: 1;
+}
+
+.contact-us-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
 @media screen and (max-width: 576px) {
   .contact-links-container {
     flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-us-container {
+    flex-direction: column-reverse;
     align-items: center;
   }
 
