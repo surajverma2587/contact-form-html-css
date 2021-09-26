@@ -26,7 +26,6 @@
       <a href="./contact.html">Contact Us</a>
     </div>
     <section>
-      <h1>Contact Us</h1>
       <section class="contact-links-container">
         <div class="contact-link-item">
           <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
@@ -58,8 +57,32 @@
       </section>
       <section class="contact-us-container">
         <div class="contact-us">
-          <h2>Contact Us</h2>
-          <form>Form goes here</form>
+          <h2 class="form-control">Contact Us</h2>
+          <form>
+            <div class="form-element-container">
+              <div class="form-item-container">
+                <label class="form-label" for="fullName">Full Name</label>
+                <input
+                  type="text"
+                  class="form-input"
+                  id="fullName"
+                  placeholder="Enter full name"
+                />
+              </div>
+              <div class="form-item-container">
+                <label class="form-label" for="emailAddress"
+                  >Email Address</label
+                >
+                <input
+                  type="text"
+                  class="form-input"
+                  id="emailAddress"
+                  placeholder="Enter email address"
+                />
+              </div>
+            </div>
+            <div class="form-control"><button class="btn">Submit</button></div>
+          </form>
         </div>
         <div class="contact-us-img">
           <img src="./assets/images/form-image.jpeg" alt="help wanted image" />
